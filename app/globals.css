@@ -16,12 +16,9 @@
   }
 }
 
+/* body is centered and only fixed width */
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 1rem;
 }
